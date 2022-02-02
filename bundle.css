@@ -1,0 +1,20 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.leaderboard .heading {
+    display: flex;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+}
