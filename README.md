@@ -39,7 +39,8 @@ This project is under development.
 
 ## Screenshoots
 
-![leaderboard](https://user-images.githubusercontent.com/90222110/152198521-800e149e-e1f0-4e82-88f1-4e6895bcf49d.png)
+![Screenshot (17)](https://user-images.githubusercontent.com/90222110/152314181-d8679fea-a439-4eb6-82a1-8937019187ef.png)
+
 
 
 ## Live Demo link
