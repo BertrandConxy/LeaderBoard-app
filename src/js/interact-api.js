@@ -1,0 +1,40 @@
+import displayData from "./displayData";
+
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/A9GgGr2ZTgKdQScdJRGi/scores/'
+// game code is A9GgGr2ZTgKdQScdJRGi  h6iR6MU3r9EJmryOWw9J
+export const createGame = () => {
+    const game = {
+        name: 'NBA Live',
+    };
+    fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+        method: 'POST',
+        body: JSON.stringify(game),
+        headers: {
+            'Content-type': 'application/json; charset= UTF-8', 
+        },
+    })
+
+};
+
+export const refreshData = (players, leaderboard) => {
+
+    fetch(url)
+    .then((response)=> response.json())
+    .then((json)=> {
+        players = json.result;
+        displayData(players, leaderboard)
+    })
+}
+
+export const addPlayer = async (data) => {
+    const response = await fetch(url, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+            'Content-type': 'application/json; UTF-8',
+        },
+    });
+
+    const {result} = await response.json();
+    return result;
+};
