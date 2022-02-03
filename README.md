@@ -35,11 +35,11 @@ However, there are some project requisites required for this project to run prop
 
 ## Project Status
 
-This project is under development.
+This project has been finished and deployed.
 
 ## Screenshoots
 
-![Screenshot (17)](https://user-images.githubusercontent.com/90222110/152314181-d8679fea-a439-4eb6-82a1-8937019187ef.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/90222110/152327869-1effb9d6-f088-4bf3-a920-5f6cee7b6ec9.png)
 
 
 
@@ -69,5 +69,6 @@ Here is the link to the Issues tab:
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Thanks  Kandi for your help
+- Thanks  Abood for your help
 - Thanks to everyone else who helped me.
