@@ -2,19 +2,6 @@ import displayData from './displayData.js';
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/A9GgGr2ZTgKdQScdJRGi/scores/';
 
-export const createGame = () => {
-  const game = {
-    name: 'NBA Live',
-  };
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
-    method: 'POST',
-    body: JSON.stringify(game),
-    headers: {
-      'Content-type': 'application/json; charset= UTF-8',
-    },
-  });
-};
-
 export const refreshData = (players, leaderboard) => {
   fetch(url)
     .then((response) => response.json())
