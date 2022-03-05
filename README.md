@@ -1,74 +1,85 @@
- ![](https://img.shields.io/badge/Microverse-blueviolet)
-# LeaderBoard-app
-Have you come across any leaderboard, like billboard for example where people are ranked according to their performance. This leaderboard app is also like that, It ranks the people according to their scores in a game.
+ 
+![](https://img.shields.io/badge/Leaderboard-blue)
 
-## Built With
-
-- HTML and CSS
-- plain Javascript
-
-## How to use and run this project
-
-> To get a local copy up and running follow these simple example steps.
-
--Clone this repository with
-
-<code> git clone <https://github.com/BertrandConxy/LeaderBoard-app.git> </code>
-
--using your terminal or command line.
-
--Change to the project directory by entering :
-
-<code>cd LeaderBoard-app</code>, in the terminal.
-
--run code to open it in vscode.
-However, there are some project requisites required for this project to run properly
-
-### Prerequisites
-
-- This project makes use of bundler called 'Webpack' which manages all the dependencies and files for this project.
-- To install it, follow this:
-- Locate to the directory of the project
-- In the terminal, <code>npm init -y</code> to initialise the package manager
-- Again, in the terminal, <code> npm install </code> to install everything.
-  - to run the development code <code> npm run build </code>
-
-## Project Status
-
-This project has been finished and deployed.
-
-## Screenshoots
+# Leaderboard
+>Have you come across any leaderboard, like billboard for example where people are ranked according to their performance. This leaderboard app is also like that, It ranks the people according to their scores in a game.
 
 ![Screenshot (18)](https://user-images.githubusercontent.com/90222110/152327869-1effb9d6-f088-4bf3-a920-5f6cee7b6ec9.png)
 
+# Live demo
+
+[Live Demo ](https://bertrandconxy.github.io/LeaderBoard-app/)
 
 
-## Live Demo link
+Additional description about the project and its features.
+## Built With
 
-<https://bertrandconxy.github.io/LeaderBoard-app/>
+- Major languages (JavaScript(ES6))
+- Technologies/tools used 
 
-## Issues
+  
+  ``` bash
+ 
+  - Webpack(Code Bundlng et al)
+  - Babel (code transpiling)
+  - Jest(for testing)
+  - Git(version control)
+  - ESLint(JavaScript linting)
+  - Stylelint(style linting)
 
-Up to now, there are no issues with it.
+  ```
 
-Here is the link to the Issues tab:
 
-<https://github.com/BertrandConxy/LeaderBoard-app/issues>
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+ - A text editor(preferably Visual Studio Code)
+### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
+### Usage
+#### Clone this repository
+
+```bash
+$ git clone https://github.com/mugishasam123/Leaderboard
+.git
+$ cd Leaderboard
+
+```
+#### Run project
+
+```bash
+$ npm install
+$ npm start # this will open it in the browser and enable hot reloading
+```
+
+  <br>
+
 
 ## Authors
 
 👤 **Bertrand Mutangana Ishimwe**
 
 - GitHub: [@BertrandConxy](https://github.com/BertrandConxy)
-- Twitter: [@Bconxy](https://twitter.com/Bconxy)
-- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
+- Twitter: [@Bconxy](https://twitter.com/BertrandMutanga)
+- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrandmutangana)
 
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/BertrandConxy/LeaderBoard-app/issues).
+
+<br>
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-- Thanks  Kandi for your help
-- Thanks  Abood for your help
-- Thanks to everyone else who helped me.
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+ 
