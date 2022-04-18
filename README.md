@@ -4,7 +4,8 @@
 # Leaderboard
 >Have you come across any leaderboard, like billboard for example where people are ranked according to their performance. This leaderboard app is also like that, It ranks the people according to their scores in a game.
 
-![Screenshot (18)](https://user-images.githubusercontent.com/90222110/152327869-1effb9d6-f088-4bf3-a920-5f6cee7b6ec9.png)
+![leaderboard-web](https://user-images.githubusercontent.com/90222110/163834716-5173ab5b-0437-45ad-84d0-41fb4bb6fdff.png)
+
 
 # Live demo
 
