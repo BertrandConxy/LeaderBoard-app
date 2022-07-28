@@ -44,9 +44,8 @@ To get a local copy up and running follow these simple example steps.
 #### Clone this repository
 
 ```bash
-$ git clone https://github.com/mugishasam123/Leaderboard
-.git
-$ cd Leaderboard
+$ git clone https://github.com/BertrandConxy/LeaderBoard-app.git
+$ cd LeaderBoard-app
 
 ```
 #### Run project
